@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" blendMode="SRC_OVER" depthTest="INHERIT" minHeight="82.0" prefHeight="186.0" prefWidth="1800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="aex.push.BannerController">
+  <children>
+    <Label fx:id="tfAEX" layoutX="14.0" layoutY="14.0" prefHeight="63.0" prefWidth="1780.0" text="" textFill="#086600">
+      <font>
+        <Font size="30.0" />
+      </font>
+    </Label>
+    <Label fx:id="tfAEXoud" layoutX="14.0" layoutY="93.0" prefHeight="27.0" prefWidth="1680.0" text="" textFill="#a3cc00">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+  </children>
+  <effect>
+    <Glow level="0.8974842767295597" />
+  </effect>
+</AnchorPane>
